@@ -10,7 +10,7 @@ export default function Page() {
         alt="About"
         width={800}
         height={800}
-        className="rounded-lg w-[900px] h-[400px] object-cover"
+        className="rounded-lg w-full h-auto object-contain max-h-[500px] sm:object-cover sm:h-[400px] sm:w-[900px]"
       />
       <h1 className="text-4xl font-bold">About</h1>
       <p className="text-lg text-center sm:text-left">

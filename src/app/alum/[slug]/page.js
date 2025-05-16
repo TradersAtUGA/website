@@ -13,7 +13,7 @@ export default function Page({ params }) {
 
   if (!alum) return <div>Member not found</div>;
   return (
-    <div className="flex flex-col sm:flex-row gap-4 max-w-4xl mx-auto h-[80vh] items-center justify-center text-center sm:text-left px-8">
+    <div className="flex flex-col sm:flex-row gap-8 max-w-4xl mx-auto items-center justify-center text-center sm:text-left px-4 py-8">
       <div className="w-1/2 flex flex-col gap-4 fade-in-left">
         <div className="w-full h-[200px] overflow-hidden rounded-lg sm:hidden">
           <Image

@@ -91,8 +91,7 @@ export default function Home() {
                 alt="About Us"
                 width={800}
                 height={800}
-                className="overflow-hidden w-[1600px] h-[400px] rounded-lg
-            object-cover"
+                className="rounded-lg w-full h-auto object-contain max-h-[500px] sm:object-cover sm:h-[400px] sm:w-[900px]"
               />
             </div>
           </section>
