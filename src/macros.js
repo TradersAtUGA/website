@@ -40,10 +40,10 @@ export const macros = {
     "Traders@UGA is the University of Georgia’s premier Quantitative Finance Club, dedicated to fostering innovation, education, and collaboration in trading, quantitative research, and market analysis. Our mission is to bridge the gap between academia and the financial industry, empowering students to transform their theoretical knowledge into practical applications.",
   join_text:
     "Are you passionate about trading, quantitative research, or applying software engineering skills in the world of finance? Traders@UGA is a project-based community for ambitious individuals who want to make an impact by working on real-world, high-level financial challenges.",
-  join_disabled: false,
-  application_opens: "August 1, 2025",
+  join_disabled: true,
+  application_opens: "September 1, 2025",
   join_link:
-    "https://docs.google.com/forms/d/e/1FAIpQLSfM8G4H0TWRnknVNwyCoVF6j22w2Yuxju0N3YnTN1re3i0hZg/viewform?usp=header",
+    "www.janestreet.com",
   contact_text:
     "We'd love to hear from you! Reach out to us at any of the following:",
   members: [
