@@ -37,7 +37,7 @@ export const macros = {
     },
   },
   about_text:
-    "Traders@UGA is the University of Georgia’s premier Quantitative Finance Club, dedicated to fostering innovation, education, and collaboration in trading, quantitative research, and market analysis. Our mission is to bridge the gap between academia and the financial industry, empowering students to transform their theoretical knowledge into practical applications.",
+    "Traders@UGA is the University of Georgia's premier Quantitative Finance Club, dedicated to fostering innovation, education, and collaboration in trading, quantitative research, and market analysis. Our mission is to bridge the gap between academia and the financial industry, empowering students to transform their theoretical knowledge into practical applications.",
   join_text:
     "Are you passionate about trading, quantitative research, or applying software engineering skills in the world of finance? Traders@UGA is a project-based community for ambitious individuals who want to make an impact by working on real-world, high-level financial challenges.",
   join_disabled: true,
@@ -247,15 +247,15 @@ export const macros = {
   ],
   projects: [
     {
-      name: "FNN-Enhanced LSM for American Option Pricing",
+      name: "FNN-Enhanced LSM for Bermudan Option Pricing",
       img: "/projects/LSM.png",
       date: "January - Present",
       description: [
-        "This project explores a modern approach to pricing American-style options, which are challenging to value due to their early exercise features.",
+        "This project explores a modern approach to pricing high-dimensional OTC Bermudan-style options, which are challenging to value due to their early exercise features.",
         "Rather than relying on traditional techniques, we integrated machine learning by replacing the standard regression model with a neural network. This shift enabled a more flexible and data-driven estimation of future payoffs, resulting in a more robust and accurate valuation framework."
       ],
       socials: [
-        // { name: "GitHub", href: "http://github.com", icon: <BsGithub /> },
+        { name: "GitHub", href: "https://github.com/TradersAtUGA/FNN-Enhanced-LSM", icon: <BsGithub /> },
         // { name: "Twitter", href: "http://twitter.com", icon: <FaTwitter /> },
         // { name: "LinkedIn", href: "http://linkedin.com", icon: <FaLinkedin /> },
       ],
