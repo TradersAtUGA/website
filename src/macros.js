@@ -89,7 +89,7 @@ export const macros = {
     },
     {
       name: "Nate Levy",
-      role: "Quant Trader",
+      role: "Head of Research",
       slug: "nate-levy",
       img: "/members/nl.jpeg",
       description:
@@ -129,7 +129,7 @@ export const macros = {
     },
     {
       name: "Hadiza Sarr",
-      role: "Quant Trader",
+      role: "Quant Researcher",
       slug: "hadiza-sarr",
       img: "/members/hs.jpeg",
       description:
@@ -164,7 +164,7 @@ export const macros = {
     },
     {
       name: "Jemia Johnson",
-      role: "Quant Trader",
+      role: "Quant Researcher",
       slug: "jemia-johnson",
       img: "/members/jj.jpeg",
       description:
@@ -204,7 +204,7 @@ export const macros = {
     },
     {
       name: 'Hyeongkeum "Han" Seo',
-      role: "Quant Trader",
+      role: "Quant Researcher",
       slug: "hyeongkeum-seo",
       img: "/members/hhs.jpeg",
       description:
@@ -214,6 +214,61 @@ export const macros = {
           name: "LinkedIn",
           href: "http://www.linkedin.com/in/hkseo99",
           icon: <FaLinkedin />,
+        },
+      ],
+    },
+    {
+      name: "Matt Mocklin",
+      role: "Software Engineer",
+      slug: "matt-mocklin",
+      img: "/members/mm.jpg",
+      description:
+        "Matt Mocklin is a fourth-year Computer Science major with certificates in Financial Technology and Applied Data Science. He is particularly drawn to complex problems that require unconventional solutions. Matt enjoys exploring creative applications of technology within the finance sector, leveraging engineering to analyze market behavior and design innovative solutions. Outside of school, he enjoys going to the gym, spending time with friends, and listening to music.",
+      socials: [
+        {
+          name: "Github",
+          href: "https://github.com/mmocklin18",
+          icon: <BsGithub />
+        },
+        {
+          name: "LinkedIn",
+          href: "https://www.linkedin.com/in/matt-mocklin/",
+          icon: <FaLinkedin />
+        }
+      ]
+    },
+    {
+      name: "Edwin Cheung",
+      role: "Quant Researcher",
+      slug: "edwin-cheung",
+      img: "/members/ec.JPG",
+      description:
+        "Edwin Cheung is a triple major, studing Financial Mathematics, Economics, and Management Information Systems specializing in game theory. He leverages his analytical skills to expand Mahjong's popularity in America while applying statistics, machine learning, and data analysis to solve complex problems, particularly those involving expected value. In his free time, Edwin hones his interests: cooking, Mahjong, and personal finance.",
+      socials: [
+        {
+          name: "LinkedIn",
+          href: "https://www.linkedin.com/in/cheungedwin/",
+          icon: <FaLinkedin />
+        },
+      ],
+    },
+    {
+      name: "Vikas Katari",
+      role: "Software Engineer",
+      slug: "vikas-katari",
+      img: "/members/vk.jpeg",
+      description:
+        "Vikas Katari is a rising junior pursuing a dual major in Computer Science and Mathematics, with a concentration in Financial Mathematics. He is deeply passionate about the intersection of finance and technology, particularly in areas such as algorithmic trading and the optimization of financial services through automation. Vikas is also a member of the Small Satellite Research Laboratory, where he contributes as a Guidance, Navigation, and Controls (GNC) Engineer. Outside the academic and technical world, he enjoys staying active at the gym and experimenting with new recipes in the kitchen.",
+      socials: [
+        {
+          name: "Github",
+          href: "https://github.com/vkatari10/",
+          icon: <BsGithub />
+        },
+        {
+          name: "LinkedIn",
+          href: "https://www.linkedin.com/in/vikas-katari-264652347/",
+          icon: <FaLinkedin />
         },
       ],
     },
