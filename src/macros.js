@@ -243,7 +243,7 @@ export const macros = {
       slug: "edwin-cheung",
       img: "/members/ec.JPG",
       description:
-        "Edwin Cheung is a triple major, studing Financial Mathematics, Economics, and Management Information Systems specializing in game theory. He leverages his analytical skills to expand Mahjong's popularity in America while applying statistics, machine learning, and data analysis to solve complex problems, particularly those involving expected value. In his free time, Edwin hones his interests: cooking, Mahjong, and personal finance.",
+        "Edwin Cheung is a triple major, studying Financial Mathematics, Economics, and Management Information Systems specializing in game theory. He leverages his analytical skills to expand Mahjong's popularity in America while applying statistics, machine learning, and data analysis to solve complex problems, particularly those involving expected value. In his free time, Edwin hones his interests: cooking, Mahjong, and personal finance.",
       socials: [
         {
           name: "LinkedIn",
