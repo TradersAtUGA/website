@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
             <div className="flex items-center gap-2">
               {macros.logo}
               <p className="text-center text-gray-200">
-                © {new Date().getFullYear()} UGA Trading
+                {macros.footer.text}
               </p>
             </div>
             <div className="flex gap-4">
@@ -48,6 +48,9 @@ export default function RootLayout({ children }) {
                 </a>
               ))}
             </div>
+          </div>
+          <div style={{ whiteSpace: 'pre-line'}} className="max-w-4xl mx-auto mt-4 text-center text-s text-gray-400 px-8">
+            {macros.footer.disclaimer}
           </div>
         </footer>
       </body>

@@ -21,7 +21,9 @@ export const macros = {
   },
   logo: <Image src={logo} alt="UGA Trading" width={40} height={40} />,
   footer: {
-    text: "© {new Date().getFullYear()} UGA Trading",
+    // text: "© {new Date().getFullYear()} Traders @ UGA®",
+    text: "© 2025 Traders @ UGA®",
+    disclaimer: "Disclaimer: © 2025 Traders @ UGA®. “UGA” and related names and logos are registered trademarks of the University of Georgia. Traders @ UGA® is a student organization that is not affiliated with, sponsored by, or endorsed by the University of Georgia. Use of the “UGA” trademark complies with university policies. All rights reserved."
   },
   socials: [
     {
