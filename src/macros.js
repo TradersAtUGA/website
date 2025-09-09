@@ -43,7 +43,7 @@ export const macros = {
   join_text:
     "Are you passionate about trading, quantitative research, or applying software engineering skills in the world of finance? Traders@UGA is a project-based community for ambitious individuals who want to make an impact by working on real-world, high-level financial challenges.",
   join_disabled: true,
-  application_opens: "September 1, 2025",
+  application_opens: "January 31, 2026",
   join_link:
     "www.janestreet.com",
   contact_text:
