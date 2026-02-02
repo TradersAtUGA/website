@@ -22,8 +22,8 @@ export const macros = {
   logo: <Image src={logo} alt="UGA Trading" width={40} height={40} />,
   footer: {
     // text: "© {new Date().getFullYear()} Traders @ UGA®",
-    text: "© 2025 Traders @ UGA®",
-    disclaimer: "Disclaimer: © 2025 Traders @ UGA®. “UGA” and related names and logos are registered trademarks of the University of Georgia. Traders @ UGA® is a student organization that is not affiliated with, sponsored by, or endorsed by the University of Georgia. Use of the “UGA” trademark complies with university policies. All rights reserved."
+    text: "© 2026 Traders @ UGA®",
+    disclaimer: "Disclaimer: © 2026 Traders @ UGA®. “UGA” and related names and logos are registered trademarks of the University of Georgia. Traders @ UGA® is a student organization that is not affiliated with, sponsored by, or endorsed by the University of Georgia. Use of the “UGA” trademark complies with university policies. All rights reserved."
   },
   socials: [
     {
@@ -42,10 +42,10 @@ export const macros = {
     "Traders@UGA is the University of Georgia's premier Quantitative Finance Club, dedicated to fostering innovation, education, and collaboration in trading, quantitative research, and market analysis. Our mission is to bridge the gap between academia and the financial industry, empowering students to transform their theoretical knowledge into practical applications.",
   join_text:
     "Are you passionate about trading, quantitative research, or applying software engineering skills in the world of finance? Traders@UGA is a project-based community for ambitious individuals who want to make an impact by working on real-world, high-level financial challenges.",
-  join_disabled: true,
+  join_disabled: false,
   application_opens: "January 31, 2026",
   join_link:
-    "www.janestreet.com",
+    "https://forms.gle/x2degEXZveXUZRrx9",
   contact_text:
     "We'd love to hear from you! Reach out to us at any of the following:",
   members: [
