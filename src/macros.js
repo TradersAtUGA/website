@@ -17,6 +17,7 @@ export const macros = {
       { href: "/join", text: "Join Us" },
       { href: "/projects", text: "Projects" },
       { href: "/alumni", text: "Alumni" },
+      { href: "/placements", text: "Placements"}
     ],
   },
   logo: <Image src={logo} alt="UGA Trading" width={40} height={40} />,
@@ -71,7 +72,7 @@ export const macros = {
     },
     {
       name: "Alexander Kimmig",
-      role: "Head of SWE",
+      role: "Software Engineer",
       slug: "alexander-kimmig",
       img: "/members/ak.jpeg",
       description:
@@ -113,7 +114,7 @@ export const macros = {
       name: "Wayne Lam",
       role: "Software Engineer",
       slug: "wayne-lam",
-      img: "/members/wl.jpeg",
+      img: "/members/WayneLam.jpeg",
       description:
         "Wayne Lam is a junior at the University of Georgia with a deep passion for the applications of technology, particularly in the field of quantitative finance. With experience in software development, machine learning, and cybersecurity, Wayne enjoys exploring how these fields intersect with financial markets. Outside of computer science, Wayne enjoys playing violin and pickleball.",
       socials: [
@@ -258,7 +259,7 @@ export const macros = {
       name: "Vikas Katari",
       role: "Software Engineer",
       slug: "vikas-katari",
-      img: "/members/vk.jpeg",
+      img: "/members/VikasKatari.jpg",
       description:
         "Vikas Katari is a rising junior pursuing a dual major in Computer Science and Mathematics, with a concentration in Financial Mathematics. He is deeply passionate about the intersection of finance and technology, particularly in areas such as algorithmic trading and the optimization of financial services through automation. Vikas is also a member of the Small Satellite Research Laboratory, where he contributes as a Guidance, Navigation, and Controls (GNC) Engineer. Outside the academic and technical world, he enjoys staying active at the gym and experimenting with new recipes in the kitchen.",
       socials: [
@@ -275,33 +276,54 @@ export const macros = {
       ],
     },
   ],
-  alumni: [
+  placements: [
     {
-      name: "Raul Perez-Lopez",
-      role: "Software Engineer",
-      slug: "raul-perez-lopez",
-      img: "/members/rp.JPG",
-      description:
-        "Raul Perez-Lopez is a senior majoring in Computer Science with a strong passion for Systems Research, Distributed Systems, and Machine Learning. He's focused on developing high-performance trading systems and optimizing large-scale financial models. Raul will be joining Two Sigma as a Software Engineer after graduation.",
-      work: {
-        title: "",
-        company: "",
-        location: "",
-      },
-      socials: [
-        {
-          name: "GitHub",
-          href: "https://github.com/RaulP0402",
-          icon: <BsGithub />,
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/raul-perez-lopez/",
-          icon: <FaLinkedin />,
-        },
-      ],
+      company: "Jane Street",
+      link: "https://www.janestreet.com/",
+      img: "/companies/JaneStreet.png"
     },
+    {
+      company: "Two Sigma",
+      link: "https://www.twosigma.com/",
+      img: "/companies/TwoSigma.png"
+    },
+    {
+      company: "Barclays",
+      link: "https://home.barclays/",
+      img: "/companies/Barclays.jpg"
+    },
+    {
+      company: "Mathworks",
+      link: "https://www.mathworks.com/",
+      img: "/companies/MathWorks.jpg"
+    },
+    {
+      company: "Black Rock",
+      link: "https://www.blackrock.com/us/individual",
+      img: "/companies/BlackRock.png"
+    },
+    {
+      company: "Moody's",
+      link: "https://www.moodys.com/",
+      img: "/companies/Moodys.jpeg"
+    },
+    {
+      company: "Delta Airlines",
+      link: "https://www.delta.com/",
+      img: "/companies/DeltaAirlines.png"
+    },
+    {
+      company: "Apple",
+      link: "https://www.apple.com/",
+      img: "/companies/Apple.webp"
+    },
+    {
+      company: "Goldman Sachs",
+      link: "https://www.goldmansachs.com/",
+      img: "/companies/GoldmanSachs.png"
+    }
   ],
+
   projects: [
     {
       name: "FNN-Enhanced LSM for Bermudan Option Pricing",
