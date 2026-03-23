@@ -10,9 +10,11 @@ export default function MemberList({ limit, alumni }) {
       {members.map((_, index) => {
         const member = macros.members[index];
         return (
-          <Link href={`/member/${member.slug}`} key={index}>
-            <Member key={index} index={index} />
-          </Link>
+          // depricated
+          // <Link href={`/member/${member.slug}`} key={index}>
+          //   <Member key={index} index={index} />
+          // </Link>
+          <Member key={index} index={index} />
         );
       })}
     </div>

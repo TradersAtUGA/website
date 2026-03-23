@@ -51,7 +51,7 @@ export default function Drawer({ open, setOpen }) {
                 <NavLink href="/contact" text="Contact Us" />
                 <NavLink href="/#join" text="Join Us" />
                 <NavLink href="/projects" text="Projects" />
-                <NavLink href="/alumni" text="Alumni" />
+                <NavLink href="/placements" text="Placements" />
               </div>
             </DialogPanel>
           </div>

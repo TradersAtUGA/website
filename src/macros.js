@@ -17,6 +17,7 @@ export const macros = {
       { href: "/join", text: "Join Us" },
       { href: "/projects", text: "Projects" },
       { href: "/alumni", text: "Alumni" },
+      { href: "/placements", text: "Placements"}
     ],
   },
   logo: <Image src={logo} alt="UGA Trading" width={40} height={40} />,
@@ -54,255 +55,148 @@ export const macros = {
       role: "President",
       slug: "brennan-davenport",
       img: "/members/bd.jpeg",
-      description:
-        "Brennan Davenport is a double major in Mathematics and Computer Science. He enjoys researching trading strategies and optimizing computer systems, focusing on fine-tuning elements down to individual registers and bytes to enhance speed and performance. Outside of academics, Brennan participates in trading competitions to further develop his skills and plays tennis on the club team, balancing both intellectual and physical pursuits.",
-      socials: [
-        {
-          name: "GitHub",
-          href: "https://github.com/brennandavenport",
-          icon: <BsGithub />,
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/brennan-davenport/",
-          icon: <FaLinkedin />,
-        },
-      ],
-    },
-    {
-      name: "Alexander Kimmig",
-      role: "Head of SWE",
-      slug: "alexander-kimmig",
-      img: "/members/ak.jpeg",
-      description:
-        "Alex Kimmig is a Computer Science major specializing in Artificial Intelligence, with a minor in Biology. He is passionate about the transformative potential of AI in finance, particularly in trading and market analysis. His academic focus is fueled by the belief that AI will play a pivotal role in reshaping the financial sector. Outside of his studies, Alex enjoys playing piano, traveling, and staying active at the gym.",
-      socials: [
-        {
-          name: "GitHub",
-          href: "https://github.com/Alexanderk30",
-          icon: <BsGithub />,
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/alex-kimmig",
-          icon: <FaLinkedin />,
-        },
-      ],
+      linkedin: "https://www.linkedin.com/in/brennan-davenport/"
     },
     {
       name: "Nate Levy",
-      role: "Head of Research",
+      role: "Head of Trading",
       slug: "nate-levy",
       img: "/members/nl.jpeg",
-      description:
-        "Nate Levy is a double major in Mathematics and Economics with a focus on how markets and trading strategies evolve over time. He enjoys understanding the dynamics of financial markets through mathematical modeling and economic theory. Outside of school, Nate enjoys cooking, soccer, and college football.",
-      socials: [
-        {
-          name: "GitHub",
-          href: "https://github.com/natelevy1",
-          icon: <BsGithub />,
-        },
-        {
-          name: "LinkedIn",
-          href: "https://linkedin.com/in/nathaniellevy/",
-          icon: <FaLinkedin />,
-        },
-      ],
+      linkedin: "https://linkedin.com/in/nathaniellevy/"
     },
-    {
-      name: "Wayne Lam",
+     {
+      name: "Vikas Katari",
       role: "Software Engineer",
-      slug: "wayne-lam",
-      img: "/members/wl.jpeg",
-      description:
-        "Wayne Lam is a junior at the University of Georgia with a deep passion for the applications of technology, particularly in the field of quantitative finance. With experience in software development, machine learning, and cybersecurity, Wayne enjoys exploring how these fields intersect with financial markets. Outside of computer science, Wayne enjoys playing violin and pickleball.",
-      socials: [
-        {
-          name: "GitHub",
-          href: "https://github.com/wayne-617",
-          icon: <BsGithub />,
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/wayne-lamm",
-          icon: <FaLinkedin />,
-        },
-      ],
+      slug: "vikas-katari",
+      img: "/members/VikasKatari.jpg",
+      linkedin: "https://www.linkedin.com/in/vikas-katari-264652347/"
     },
     {
-      name: "Hadiza Sarr",
-      role: "Quant Researcher",
-      slug: "hadiza-sarr",
-      img: "/members/hs.jpeg",
-      description:
-        "Hadiza Sarr is a junior studying Financial Mathematics, Computer Science, and Business. With a strong interest in strategy within the finance industry, she has experience in consulting, fintech strategy, and portfolio management. She aims to enhance both her technical skills and strategic insight.",
-      socials: [
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/hadiza-sarr-",
-          icon: <FaLinkedin />,
-        },
-      ],
-    },
-    {
-      name: "James Nguyen",
-      slug: "james-nguyen",
-      role: "Software Engineer",
-      img: "/members/jn.jpeg",
-      description:
-        "James Nguyen is a junior majoring in Computer Science with a minor in Statistics. His passion for quantitative finance began early, sparked by an interest in the stock market that led to personal investing at the age of 16. Since then, he has developed a keen interest in machine learning, particularly in how it can be leveraged to solve real-world problems and make meaningful advances in society.",
-      socials: [
-        {
-          name: "GitHub",
-          href: "https://github.com/JamestheNguyenir",
-          icon: <BsGithub />,
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/james-nguyen-76bab32ab/",
-          icon: <FaLinkedin />,
-        },
-      ],
-    },
-    {
-      name: "Jemia Johnson",
-      role: "Quant Researcher",
-      slug: "jemia-johnson",
-      img: "/members/jj.jpeg",
-      description:
-        "Jemia Johnson is passionate about continuous improvement and learning, with a strong foundation in Data Science and Mathematics. This summer, Jemia will join Delta Airlines as an Operations Analyst, applying her analytical skills to optimize large-scale systems and improve efficiency across the airline's network.",
-      socials: [
-        {
-          name: "GitHub",
-          href: "https://github.com/jemiaj",
-          icon: <BsGithub />,
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/jemiajohnson",
-          icon: <FaLinkedin />,
-        },
-      ],
+      name: "Edwin Cheung",
+      role: "Quant Trader",
+      slug: "edwin-cheung",
+      img: "/members/ec.JPG",
+      linkedin: "https://www.linkedin.com/in/cheungedwin/"
     },
     {
       name: "Arjun Sakthi",
       role: "Software Engineer",
       slug: "arjun-sakthi",
       img: "/members/as.jpeg",
-      description:
-        "Arjun Sakthi is a junior at the University of Georgia, majoring in Computer Science. He has a strong interest in algorithmic trading, where he enjoys developing and testing systematic strategies that blend his programming expertise with his understanding of market behavior. He is also involved in research on autonomous vehicles and co-simulation platforms. Outside of academics, Arjun enjoys traveling, go-karting, and experimenting in the kitchen with new recipes.",
-      socials: [
-        {
-          name: "GitHub",
-          href: "https://github.com/arjun-sa",
-          icon: <BsGithub />,
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/arjunsakthi/",
-          icon: <FaLinkedin />,
-        },
-      ],
+      linkedin: "https://www.linkedin.com/in/arjunsakthi/"
     },
     {
-      name: 'Hyeongkeum "Han" Seo',
-      role: "Quant Researcher",
-      slug: "hyeongkeum-seo",
-      img: "/members/hhs.jpeg",
-      description:
-        "HyeongKeum Seo, often referred to as Han, is a Data Science major at the University of Georgia. He is deeply passionate about the intersection of mathematical models and financial technology, particularly in the context of quantitative finance. Han is focused on how statistical theory and algorithmic strategies can be applied to real-world markets.",
-      socials: [
-        {
-          name: "LinkedIn",
-          href: "http://www.linkedin.com/in/hkseo99",
-          icon: <FaLinkedin />,
-        },
-      ],
+      name: "Jemia Johnson",
+      role: "Quant Trader",
+      slug: "jemia-johnson",
+      img: "/members/jj.jpeg",
+      linkedin: "https://www.linkedin.com/in/jemiajohnson"
+    },
+    {
+      name: "Wayne Lam",
+      role: "Software Engineer",
+      slug: "wayne-lam",
+      img: "/members/WayneLam.jpeg",
+      linkedin: "https://www.linkedin.com/in/wayne-lamm"
+    },
+    {
+      name: "Hadiza Sarr",
+      role: "Quant Trader",
+      slug: "hadiza-sarr",
+      img: "/members/hs.jpeg",
+      linkedin: "https://www.linkedin.com/in/hadiza-sarr-"
+    },
+    {
+      name: "James Nguyen",
+      slug: "james-nguyen",
+      role: "Software Engineer",
+      img: "/members/jn.jpeg",
+      linkedin: "https://www.linkedin.com/in/james-nguyen-932ae/"
     },
     {
       name: "Matt Mocklin",
       role: "Software Engineer",
       slug: "matt-mocklin",
       img: "/members/mm.jpg",
-      description:
-        "Matt Mocklin is a fourth-year Computer Science major with certificates in Financial Technology and Applied Data Science. He is particularly drawn to complex problems that require unconventional solutions. Matt enjoys exploring creative applications of technology within the finance sector, leveraging engineering to analyze market behavior and design innovative solutions. Outside of school, he enjoys going to the gym, spending time with friends, and listening to music.",
-      socials: [
-        {
-          name: "Github",
-          href: "https://github.com/mmocklin18",
-          icon: <BsGithub />
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/matt-mocklin/",
-          icon: <FaLinkedin />
-        }
-      ]
+      linkedin: "https://www.linkedin.com/in/matt-mocklin/"
     },
     {
-      name: "Edwin Cheung",
-      role: "Quant Researcher",
-      slug: "edwin-cheung",
-      img: "/members/ec.JPG",
-      description:
-        "Edwin Cheung is a triple major, studying Financial Mathematics, Economics, and Management Information Systems specializing in game theory. He leverages his analytical skills to expand Mahjong's popularity in America while applying statistics, machine learning, and data analysis to solve complex problems, particularly those involving expected value. In his free time, Edwin hones his interests: cooking, Mahjong, and personal finance.",
-      socials: [
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/cheungedwin/",
-          icon: <FaLinkedin />
-        },
-      ],
+      name: 'Hyeongkeum "Han" Seo',
+      role: "Quant Trader",
+      slug: "hyeongkeum-seo",
+      img: "/members/hhs.jpeg",
+      linkedin: "http://www.linkedin.com/in/hkseo99"
     },
     {
-      name: "Vikas Katari",
+      name: "Alexander Kimmig",
       role: "Software Engineer",
-      slug: "vikas-katari",
-      img: "/members/vk.jpeg",
-      description:
-        "Vikas Katari is a rising junior pursuing a dual major in Computer Science and Mathematics, with a concentration in Financial Mathematics. He is deeply passionate about the intersection of finance and technology, particularly in areas such as algorithmic trading and the optimization of financial services through automation. Vikas is also a member of the Small Satellite Research Laboratory, where he contributes as a Guidance, Navigation, and Controls (GNC) Engineer. Outside the academic and technical world, he enjoys staying active at the gym and experimenting with new recipes in the kitchen.",
-      socials: [
-        {
-          name: "Github",
-          href: "https://github.com/vkatari10/",
-          icon: <BsGithub />
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/vikas-katari-264652347/",
-          icon: <FaLinkedin />
-        },
-      ],
+      slug: "alexander-kimmig",
+      img: "/members/ak.jpeg",
+      linkedin: "https://www.linkedin.com/in/alex-kimmig"
     },
   ],
-  alumni: [
+  placements: [
     {
-      name: "Raul Perez-Lopez",
-      role: "Software Engineer",
-      slug: "raul-perez-lopez",
-      img: "/members/rp.JPG",
-      description:
-        "Raul Perez-Lopez is a senior majoring in Computer Science with a strong passion for Systems Research, Distributed Systems, and Machine Learning. He's focused on developing high-performance trading systems and optimizing large-scale financial models. Raul will be joining Two Sigma as a Software Engineer after graduation.",
-      work: {
-        title: "",
-        company: "",
-        location: "",
-      },
-      socials: [
-        {
-          name: "GitHub",
-          href: "https://github.com/RaulP0402",
-          icon: <BsGithub />,
-        },
-        {
-          name: "LinkedIn",
-          href: "https://www.linkedin.com/in/raul-perez-lopez/",
-          icon: <FaLinkedin />,
-        },
-      ],
+      company: "Jane Street",
+      link: "https://www.janestreet.com/",
+      img: "/companies/JaneStreet.png"
+    },
+    {
+      company: "Two Sigma",
+      link: "https://www.twosigma.com/",
+      img: "/companies/TwoSigma.png"
+    },
+    {
+      company: "Barclays",
+      link: "https://home.barclays/",
+      img: "/companies/Barclays.png"
+    },
+    {
+      company: "Mathworks",
+      link: "https://www.mathworks.com/",
+      img: "/companies/MathWorks.webp"
+    },
+    {
+      company: "Black Rock",
+      link: "https://www.blackrock.com/us/individual",
+      img: "/companies/BlackRock.png"
+    },
+    {
+      company: "Moody's",
+      link: "https://www.moodys.com/",
+      img: "/companies/Moodys.png"
+    },
+    {
+      company: "Delta Airlines",
+      link: "https://www.delta.com/",
+      img: "/companies/DeltaAirlines.png"
+    },
+    {
+      company: "Apple",
+      link: "https://www.apple.com/",
+      img: "/companies/Apple.png"
+    },
+    {
+      company: "Goldman Sachs",
+      link: "https://www.goldmansachs.com/",
+      img: "/companies/GoldmanSachs.png"
     },
   ],
+
   projects: [
+      {
+      name: "Market Exchange",
+      img: "/projects/orderbook.png",
+      date: "January - Present",
+      description: [
+        "We are developing a fully functional financial exchange engine in C++, designed to simulate the core mechanics of real-world trading infrastructure. The system features a high-speed order matching engine, support for limit and market orders, and an order book that processes bids and asks in real time. Built with a focus on low latency and performance, the project gives members hands-on experience with the systems that power firms like Jane Street, Two Sigma, and Citadel"
+      ],
+      socials: [
+        { name: "GitHub", href: "https://github.com/TradersAtUGA/exchange-backend", icon: <BsGithub /> },
+        // { name: "Twitter", href: "http://twitter.com", icon: <FaTwitter /> },
+        // { name: "LinkedIn", href: "http://linkedin.com", icon: <FaLinkedin /> },
+      ],
+    },
     {
       name: "FNN-Enhanced LSM for Bermudan Option Pricing",
       img: "/projects/LSM.png",

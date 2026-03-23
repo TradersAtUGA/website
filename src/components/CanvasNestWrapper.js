@@ -27,18 +27,6 @@ const CanvasNestWrapper = () => {
       } catch (error) {
         console.error("Error removing canvas elements:", error);
       }
-
-      // Destroy canvas-nest instance - Buggy code I think that the canvasNestRef does not have a destroy() function
-      // if (canvasNestRef.current) {
-      //   try {
-      //     if (typeof canvasNestRef.current.destroy === "function") {
-      //       canvasNestRef.current.destroy();
-      //     }
-      //   } catch (error) {
-      //     console.error("Error destroying canvas instance:", error);
-      //   }
-      //   canvasNestRef.current = null;
-      // }
     };
 
     // Clean up any existing instances first
