@@ -1,11 +1,20 @@
+"use client";
+
 import { macros } from "@/macros";
 import Image from "next/image";
 
 export default function Member({ index }) {
+  function handleClick() {
+    window.open(macros.members[index].linkedin, "_blank");
+  }
+
+  // there is some old code in here that renders the old description
+  // now when click just go to linkedin
   return (
     <div
       className="flex flex-col gap-4 items-center sm:items-start border border-white/[.145] rounded-lg max-w-[300px] hover:bg-[#1a1a1a] hover:border-transparent transition-color overflow-hidden group"
       key={index}
+      onClick={handleClick}
     >
       <div className="flex flex-col items-center sm:items-start">
         <div className="w-[200px] h-[200px] overflow-hidden rounded-t-lg">
