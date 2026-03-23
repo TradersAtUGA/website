@@ -27,13 +27,7 @@ export default function Page({ params }) {
         <h1 className="text-4xl font-bold">{member.name}</h1>
         <p className="text-xl font-semibold">{member.role}</p>
         <p className="text-lg max-w-sm">{member.description}</p>
-        <div className="flex gap-4 items-center justify-center mt-4 sm:justify-start">
-          {member.socials.map((social, index) => (
-            <a key={index} href={social.href} className="text-2xl">
-              {social.icon}
-            </a>
-          ))}
-        </div>
+      
         <Link
           href="/about"
           className="text-lg text-blue-500 hover:text-blue-700"
