@@ -11,7 +11,7 @@ export default function Placement({ index }) {
 
     return (
         <div
-            className="flex flex-col border border-white/20 rounded-lg w-[300px] h-[180px] hover:bg-[#e6e6e6] hover:border-white/40 transition-colors overflow-hidden group cursor-pointer bg-[#1E2A3A]"
+            className="flex flex-col border border-white/20 rounded-lg w-full h-[180px] hover:bg-[#D3D3D3] hover:border-white/40 transition-colors overflow-hidden group cursor-pointer bg-[#F1F1F1]"
             onClick={handleClick}
         >
             <div className="w-full h-full overflow-hidden flex items-center justify-center">
