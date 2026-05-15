@@ -43,8 +43,8 @@ export const macros = {
     "Traders@UGA is the University of Georgia's premier Quantitative Finance Club, dedicated to fostering innovation, education, and collaboration in trading, quantitative research, and market analysis. Our mission is to bridge the gap between academia and the financial industry, empowering students to transform their theoretical knowledge into practical applications.",
   join_text:
     "Are you passionate about trading, quantitative research, or applying software engineering skills in the world of finance? Traders@UGA is a project-based community for ambitious individuals who want to make an impact by working on real-world, high-level financial challenges.",
-  join_disabled: false,
-  application_opens: "January 31, 2026",
+  join_disabled: true,
+  application_opens: "Fall 2026",
   join_link:
     "https://forms.gle/x2degEXZveXUZRrx9",
   contact_text:
@@ -79,34 +79,6 @@ export const macros = {
       linkedin: "https://www.linkedin.com/in/cheungedwin/"
     },
     {
-      name: "Arjun Sakthi",
-      role: "Software Engineer",
-      slug: "arjun-sakthi",
-      img: "/members/as.jpeg",
-      linkedin: "https://www.linkedin.com/in/arjunsakthi/"
-    },
-    {
-      name: "Jemia Johnson",
-      role: "Quant Trader",
-      slug: "jemia-johnson",
-      img: "/members/jj.jpeg",
-      linkedin: "https://www.linkedin.com/in/jemiajohnson"
-    },
-    {
-      name: "Wayne Lam",
-      role: "Software Engineer",
-      slug: "wayne-lam",
-      img: "/members/WayneLam.jpeg",
-      linkedin: "https://www.linkedin.com/in/wayne-lamm"
-    },
-    {
-      name: "Hadiza Sarr",
-      role: "Quant Trader",
-      slug: "hadiza-sarr",
-      img: "/members/hs.jpeg",
-      linkedin: "https://www.linkedin.com/in/hadiza-sarr-"
-    },
-    {
       name: "James Nguyen",
       slug: "james-nguyen",
       role: "Software Engineer",
@@ -114,26 +86,26 @@ export const macros = {
       linkedin: "https://www.linkedin.com/in/james-nguyen-932ae/"
     },
     {
-      name: "Matt Mocklin",
-      role: "Software Engineer",
-      slug: "matt-mocklin",
-      img: "/members/mm.jpg",
-      linkedin: "https://www.linkedin.com/in/matt-mocklin/"
-    },
-    {
-      name: 'Hyeongkeum "Han" Seo',
+      name: "Brandon Srebnik",
+      slug: "brandon-srebnik",
       role: "Quant Trader",
-      slug: "hyeongkeum-seo",
-      img: "/members/hhs.jpeg",
-      linkedin: "http://www.linkedin.com/in/hkseo99"
+      img: "/members/bs.jpg",
+      linkedin: "https://www.linkedin.com/in/brandon-srebnik/"
     },
     {
-      name: "Alexander Kimmig",
-      role: "Software Engineer",
-      slug: "alexander-kimmig",
-      img: "/members/ak.jpeg",
-      linkedin: "https://www.linkedin.com/in/alex-kimmig"
+      name: "Roy Wilkes",
+      slug: "roy-wilkes",
+      role: "Quant Trader",
+      img: "/members/rw.jpeg",
+      linkedin: "https://www.linkedin.com/in/roy-wilkes-97015a381/"
     },
+    {
+      name: "Priya Jani",
+      slug: "priya-jani",
+      role: "Quant Trader",
+      img: "/members/pj.jpg",
+      linkedin: "https://www.linkedin.com/in/priya-jani-stat/"
+    }
   ],
   placements: [
     {
@@ -181,6 +153,11 @@ export const macros = {
       link: "https://www.goldmansachs.com/",
       img: "/companies/GoldmanSachs.png"
     },
+    {
+      company: "AT&T",
+      link: "https://www.att.com/",
+      img: "/companies/at&t.svg"
+    }
   ],
 
   projects: [

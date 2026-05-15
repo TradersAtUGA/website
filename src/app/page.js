@@ -128,7 +128,7 @@ export default function Home() {
               </button>
               {macros.join_disabled && (
                 <p className="text-md text-center text-gray-500">
-                  Applications are currently closed. Check back on{" "}
+                  Applications are currently closed. Check back in{" "}
                   {macros.application_opens} for updates.
                 </p>
               )}
