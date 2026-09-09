@@ -119,6 +119,16 @@ export const macros = {
       img: "/companies/TwoSigma.png"
     },
     {
+      company: "DRW",
+      link: "https://www.drw.com",
+      img: "/companies/DRW_Holdings.png"
+    },
+    {
+      company: "Apple",
+      link: "https://www.apple.com/",
+      img: "/companies/Apple.png"
+    },
+    {
       company: "Barclays",
       link: "https://home.barclays/",
       img: "/companies/Barclays.png"
@@ -127,6 +137,11 @@ export const macros = {
       company: "Mathworks",
       link: "https://www.mathworks.com/",
       img: "/companies/MathWorks.webp"
+    },
+    {
+      company: "Goldman Sachs",
+      link: "https://www.goldmansachs.com/",
+      img: "/companies/GoldmanSachs.png"
     },
     {
       company: "Black Rock",
@@ -142,16 +157,6 @@ export const macros = {
       company: "Delta Airlines",
       link: "https://www.delta.com/",
       img: "/companies/DeltaAirlines.png"
-    },
-    {
-      company: "Apple",
-      link: "https://www.apple.com/",
-      img: "/companies/Apple.png"
-    },
-    {
-      company: "Goldman Sachs",
-      link: "https://www.goldmansachs.com/",
-      img: "/companies/GoldmanSachs.png"
     },
     {
       company: "AT&T",
