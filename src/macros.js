@@ -46,7 +46,7 @@ export const macros = {
   join_disabled: false,
   application_opens: "Fall 2026",
   join_link:
-    "https://forms.gle/U19kWaaCXT8kEMav7",
+    "https://forms.gle/mtVNyVonvQEzowt97",
   contact_text:
     "We'd love to hear from you! Reach out to us at any of the following:",
   members: [
